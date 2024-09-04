@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="action_about">A propos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="creditlinks">Les assets utilisés sur cette application proviennent de https://www.icones8.fr </string>
+    <string name="notdefined">Non définie</string>
+    <string name="rappel">Rappel</string>
+    <string name="rappels">Rappels</string>
+    <string name="repeter">Répéter</string>
+    <string name="priorite">Priorité</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="soustaches">Sous-tâches</string>
+    <string name="annuler">Annuler</string>
+    <string name="ok">Ok</string>
+    <string name="Aujourdhui">Aujourd\'hui</string>
+    <string name="aujourdhui">aujourd\'hui</string>
+    <string name="tout">Tout</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="details">Détails</string>
+
+    <string name="demain">demain</string>
+    <string name="hier">hier</string>
+    <string name="avanthier">avant-hier</string>
+    <string name="apresdemain">après-demain</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="priorites_taches">
+        <item>Aucune</item>
+        <item>Faible</item>
+        <item>Moyenne</item>
+        <item>Elevée</item>
+    </string-array>
+
+    <string-array name="recurrences_taches">
+        <item>Jamais</item>
+        <item>Horaire</item>
+        <item>Tous les jours</item>
+        <item>Toutes les semaines</item>
+        <item>Toutes les 2 semaines</item>
+        <item>Tous les mois</item>
+        <item>Tous les 3 mois</item>
+        <item>Tous les 6 mois</item>
+        <item>Tous les ans</item>
+    </string-array>
+
+    <string-array name="recurrences_taches_sans_horaire">
+        <item>Jamais</item>
+        <item>Tous les jours</item>
+        <item>Toutes les semaines</item>
+        <item>Toutes les 2 semaines</item>
+        <item>Tous les mois</item>
+        <item>Tous les 3 mois</item>
+        <item>Tous les 6 mois</item>
+        <item>Tous les ans</item>
+    </string-array>
+</resources>
