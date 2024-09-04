@@ -424,7 +424,7 @@ public class ActiviteCreerRappel extends AppCompatActivity {
         }
 
         //create or update alarm by retrieving the corresponding pending intent through requestcode: rappel.id
-        alarmIntent = PendingIntent.getBroadcast(context, rappel.getRappelId(), intent, 0);
+        alarmIntent = PendingIntent.getBroadcast(context, rappel.getRappelId(), intent, PendingIntent.FLAG_IMMUTABLE);
 
         alarmMgr.setExact(AlarmManager.RTC_WAKEUP, millis,alarmIntent);
 
